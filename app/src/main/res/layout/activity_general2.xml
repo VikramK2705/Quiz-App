@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".general2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/img"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="36dp"
+                android:gravity="center"
+
+                android:id="@+id/textv"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="Astronomy Quiz App"
+                android:textColor="#000000"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="1. Astrology is all about what?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionOneA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Stars"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionOneB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Moons"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionOneC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Oceans"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionOneD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Your name"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="2. Who speculated that our universe is expanding?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionTwoA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Newton"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Edwin Hubble"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Galilio"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Copernicus"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="3. Who had propounded the planetary laws?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionThreeA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Newton"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Kepler"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Galileo"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Copernicus"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="4. Which one of the following planets has largest number of natural satellites or moons?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionFourA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Jupiter"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFourB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Mars"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFourC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Saturn"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFourD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Venus"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="5. What is the average distance (approximate) between the Sun and the Earth?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionFiveA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="70 x 105 km"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="100 x 105 km"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="110 x 106 km"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="150 x 106 km"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="6. Among the following which planet takes maximum time for one revolution around the Sun?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionSixA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Earth"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSixB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Jupiter"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSixC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text=" Mars"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSixD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Venus"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="7. If the stars are seen to rise perpendicular to the horizon by an observer, he is located on the"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionSevenA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Equator"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSevenB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Tropic of Cancer"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSevenC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="South Pole"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSevenD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="North Pole"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="8. One Astronomical Unit is the average distance between"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionEightA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Earth and the Sun"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionEightB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Earth and the Moon"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionEightC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Jupiter and the Sun"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionEightD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Pluto and the Sun"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="9. What is the approximate mean velocity with which the Earth moves round the Sun in its orbit?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionNineA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="20km/s"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionNineB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="30km/s"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionNineC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="40km/s"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionNineD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="50km/s"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="10. Which one of the following scholars suggests the earth’s origin is from gases and dust particles?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionTenA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="James Jeans"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTenB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="H Alfven"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTenC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="F Hoyle"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTenD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="O Schmidit"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/score"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="20dp"
+                android:text="SUBMIT" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

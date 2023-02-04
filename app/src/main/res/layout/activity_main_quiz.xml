@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/img"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-43dp"
+        tools:layout_editor_absoluteY="-365dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="36dp"
+                android:gravity="center"
+
+                android:id="@+id/textv"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="Quiz App"
+                android:textColor="#000000"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="1. Astrology is all about what?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionOneA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Stars"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionOneB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Moons"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionOneC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Oceans"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionOneD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Your name"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="2. Who speculated that our universe is expanding?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionTwoA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Newton"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Edwin Hubble"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Galilio"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Copernicus"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="3. Who had propounded the planetary laws?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionThreeA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Newton"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Kepler"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Galileo"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Copernicus"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="4.Who is the father of Geometry?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionFourA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Aristotle"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFourB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Euclid"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFourC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Pythagoras"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFourD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Kepler"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="5.Who is the author of the book series 'Harry Potter'?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionFiveA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="George Orwell"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="William Shakespeare"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="J. K. Rowling"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Suzanne Collins"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="20dp"
+                android:text="SUBMIT" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

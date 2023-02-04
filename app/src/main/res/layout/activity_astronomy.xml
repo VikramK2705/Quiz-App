@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".astronomy">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/img"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="41dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+      <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+          android:text=""
+          android:textColor="@color/black"
+          android:textSize="36dp"
+          android:gravity="center"
+
+          android:id="@+id/textv"/>
+
+<!--            <com.gusakov.library.PulseCountDown-->
+<!--                android:id="@+id/pulseCountDown"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="5"-->
+<!--                android:textSize="100sp"-->
+<!--                app:pc_startValue="5"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintLeft_toLeftOf="parent"-->
+<!--                app:layout_constraintRight_toRightOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"/>-->
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="Physics Quiz App"
+                android:textColor="#000000"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="1. The working principle of a washing machine is"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionOneA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="reverse osmosis"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionOneB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="diffusion"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionOneC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="dialysis"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionOneD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="centrifugation"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="2. Nuclear sizes are expressed in a unit named"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionTwoA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Fermi"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Angstrom"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Newton"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Tesla"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="3. The speed of light will be minimum while passing through"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionThreeA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="water"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="vaccum"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="air"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="glass"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="4. Which of the following is not a vector quantity?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionFourA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="speed"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFourB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="velocity"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFourC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="torque"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFourD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="displacement"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="5. How many millimeters make ten kilometers?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionFiveA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="1010"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="109"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="108"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="107"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="6. The focal length of a lens is 50 centimetre. Its power is:"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionSixA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="50 dioptre"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSixB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text=" 1 dioptre"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSixC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="10 dioptre"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSixD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="2 dioptre"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="7. The purpose of choke in tube light is"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionSevenA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Induce high voltage"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSevenB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Induce low resistance"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSevenC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Induce high resistance"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionSevenD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Induce low voltage"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="8. Which of the following is not the unit of time"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionEightA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Parallactic second"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionEightB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Micro Second"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionEightC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Leap year"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionEightD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text=" Solar day"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="9. The most suitable unit for expressing nuclear radius is"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionNineA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="micro"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionNineB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="nanometre"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionNineC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="fermi"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionNineD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="angstrom"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="10. Brightness of bulb depends on voltage or current?"
+                android:textColor="#5318BD"
+                android:textSize="27sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="34dp">
+
+                <RadioButton
+                    android:id="@+id/questionTenA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Current"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTenB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Voltage"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTenC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="Both A and B"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/questionTenD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="None"
+                    android:textColor="#07616E"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="20dp"
+                android:text="SUBMIT" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
